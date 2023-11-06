@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Data",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "form-layouts",
+      "submenu": [
+        {
+          "url": "tambahpegawai",
+          "name": "Tambah Data",
+          "slug": "form-layouts-horizontal"
+        }
+      ]
+    },
+    
+    {
+      "url": "pegawai",
+      "icon": "menu-icon tf-icons bx bx-table",
+      "name": "List Pegawai",
+      "slug": "tables-basic"
+    }
+    
+  ]
+}
